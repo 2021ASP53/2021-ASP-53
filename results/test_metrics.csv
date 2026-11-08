@@ -1,0 +1,9 @@
+"metric","value"
+"test_n",115
+"accuracy",0.91304347826087
+"accuracy_ci_lower",0.845894768784591
+"accuracy_ci_upper",0.957510822709032
+"sensitivity",0.86046511627907
+"specificity",0.944444444444444
+"auc",0.964470284237726
+"majority_baseline_accuracy",0.626086956521739

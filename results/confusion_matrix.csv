@@ -1,0 +1,5 @@
+"Actual","Predicted","Freq"
+"Benign","Benign",68
+"Malignant","Benign",6
+"Benign","Malignant",4
+"Malignant","Malignant",37
