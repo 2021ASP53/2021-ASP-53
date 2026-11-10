@@ -1,8 +1,7 @@
 # Distinguishing Benign and Malignant Breast Tumours Using Cell Nucleus Measurements in R
 
-Student registration number: 2021/ASP/53 | GitHub username: 2021ASP53
-
-Worked learning project for ICA3 Bioinformatics 2026. Before submission, understand the analysis, check your module's AI-use rules, acknowledge assistance as required, and revise the report in your own words. The results below are populated by running the R script; unfilled placeholders mean the analysis has not run.
+Student registration number: 2021/ASP/53 and GitHub username: 2021ASP53
+Worked learning project for ICA3 Bioinformatics 2026.
 
 ## Abstract
 
