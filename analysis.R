@@ -1,5 +1,6 @@
-# Run from the repository root: Rscript code/analysis.R
-# Only base R and its standard packages are required.
+# Run the analysis script from the project root directory.
+# Execution command: Rscript code/analysis.R
+# All analyses are conducted using base R and its standard packages, with no additional dependencies.
 
 options(stringsAsFactors = FALSE)
 set.seed(2026)
@@ -135,3 +136,4 @@ print(metrics)
 
 source("code/analysis.R")
 source("analysis.R")
+
