@@ -1,7 +1,6 @@
 # 2021/ASP/53
-# Run from the repository root: Rscript code/analysis.R
-# Only base R and its standard packages are required.
 
+install.packages("png")
 source("code/analysis.R")
 source("analysis.R")
 
@@ -137,4 +136,24 @@ writeLines(c('<!doctype html><html lang="en"><meta charset="utf-8"><title>Breast
 cat('Completed: README.md, report.html, figures/ and results/\n')
 print(metrics)
 
+# Load required packages
+library(png)
+library(grid)
+
+# Get all PNG files
+plot_files <- list.files(
+  "figures",
+  pattern = "\\.png$",
+  full.names = TRUE
+)
+
+# Display each plot in RStudio
+for (f in plot_files) {
+  img <- png::readPNG(f)
+
+  grid::grid.newpage()
+  grid::grid.raster(img)
+
+  readline("Press Enter to display the next plot...")
+}
 
