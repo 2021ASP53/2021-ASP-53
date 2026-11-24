@@ -1,9 +1,4 @@
 # 2021/ASP/53
-
-install.packages("png")
-source("code/analysis.R")
-source("analysis.R")
-
 options(stringsAsFactors = FALSE)
 set.seed(2026)
 dir.create('results', showWarnings = FALSE)
@@ -136,6 +131,11 @@ writeLines(c('<!doctype html><html lang="en"><meta charset="utf-8"><title>Breast
 cat('Completed: README.md, report.html, figures/ and results/\n')
 print(metrics)
 
+source("code/analysis.R")
+source("analysis.R")
+
+# ---------------------------------------------------------------------------------         
+install.packages("png")
 # Load required packages
 library(png)
 library(grid)
